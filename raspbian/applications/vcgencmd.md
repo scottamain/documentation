@@ -13,7 +13,7 @@ Reports the date and version of firmware running on the VC4.
 This returns the current frequency of the specified clock. The options are:
 
 | clock | Description |
-|=======|============ |
+|:-----:|-------------|
 | arm   | ARM cores |
 | core  | VC4 scaler cores |
 | H264  | H264 block |
@@ -34,7 +34,7 @@ e.g. `vcgencmd measure_clock arm`
 Displays the current voltages used by the specific block.
 
 | block | Description |
-|=======|=============|
+|:-----:|-------------|
 | core | VC4 core voltage |
 | sdram_c | |
 | sdram_i | |

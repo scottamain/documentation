@@ -18,5 +18,5 @@ Raspbian is a community project under active development, with an emphasis on im
 - [Applications](applications/README.md)
     - [Camera](applications/camera.md)
     - [OMXPlayer](applications/omxplayer.md)
-    - [vcgencmd](vcgencmd.md)
+    - [vcgencmd](applications/vcgencmd.md)
 

@@ -76,8 +76,17 @@ Displays statistics from the relocatable memory allocator on the VC4.
 
 Reports whether the camera is support, and if so whether it is detected.
 
+### get_throttled
 
+Gets the various throttle bits from the GPU. This is a bit pattern as more than one as these can be set at any one time. Bits < 16 indicate current status, bits 16 and greater indicate states that have occured in the past (since the last reboot)
 
-
-
-
+| Throttle Type | Bit |
+|---------------|-----|
+| Under Voltage |  0  |
+| ARM frequency Capped | 1 |
+| Currently Throttled | 2 |
+| Soft Temp limit reached | 3 |
+| Under Voltage has occured |  16  |
+| ARM frequency capping has occured | 17 |
+| Throttling has occurred | 18 |
+| Soft Temp limit has occurred | 19 |

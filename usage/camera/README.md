@@ -20,7 +20,7 @@ Open the `raspi-config` tool from the Terminal:
 sudo raspi-config
 ```
 
-Select `Enable camera` and hit `Enter`, then go to `Finish` and you'll be prompted to reboot.
+Use the cursor keys to select and open *Interfacing Options*, and then select *Camera* and follow the prompt to enable the camera. When you're done, select `Finish` and you'll be prompted to reboot, which you should do.
 
 ## Using the camera
 
@@ -28,5 +28,9 @@ Applications and libraries for using the camera are available in:
 
 - [Linux command line](raspicam/README.md) - Using the supplied command line applications (e.g. raspistill)
 - [Python](python/README.md)
+
+## More information
+
+For other camera setup info, see the [Camera configuration](../../configuration/camera.md).
 
 See detailed [technical specs](../../hardware/camera/README.md) of the camera hardware and software.
